@@ -51,4 +51,4 @@ print(f"total rabri:{total_rabri_g}g")
 
 total_rabri_kg=total_rabri_g // 1000
 print(f"total rabri:{total_rabri_kg}kg")
-https://colab.research.google.com/drive/1arx6BuRi18qz6Do5VIWuGreLtlbMRwRe#scrollTo=s-DIejyUMQw2
+
