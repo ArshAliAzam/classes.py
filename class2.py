@@ -1,40 +1,4 @@
-#name="arsh"
-#number="ali azam"
-#flot=6.8
-
-#print(type(flot))
-
-#print(f"my name is",name,number) #can cotination
-#print(f"my name is {name} {number}") #means togther to varible, by use of "f" string
-
-#paragraph="""my name is arsh.
-#I am a programer.
-#My age is 17."""
-
-#print(paragraph)
-
-#first_name="Arsh"
-
-#print(f"""hi {first_name}
-#u have win the ultimate prize.
-
-#Best regard,
-#Arsh""")
-
-#[[[Modulus]]], by table if 20 is comes in 2 so answer is 0, while 21 answer is 1.
-
-#a=23
-#b=2
-#result= a%b 
-#print("modulus:", result)
-
-#[[[[exponate]]]]
-#num1=5
-#print(num1 ** 3)
-
-#project [[[[[[(1)]]]]]]
-
- #Chaand taara khan is hosting  rabri party at his home. he need to know the total amount of people attending the event and the amount of rabri (in grams and kg) he needs to prepare.
+#Chaand taara khan is hosting  rabri party at his home. he need to know the total amount of people attending the event and the amount of rabri (in grams and kg) he needs to prepare.
  
  #There are 12 faculty members.
  #There are 4 administrative staff members.
