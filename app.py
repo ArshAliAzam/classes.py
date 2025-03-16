@@ -1,19 +1,21 @@
 import streamlit as st
 
 
-st.title("Welcome to class!")
-st.header("header 1")
-st.write("Ramadan mubarak")
+st.title("Welcome to Arsh Web")
+st.header("""First
+          Ramadan mubarak💝 to all of U
+          """)
+st.write("What is Your name????")
 name = st.text_input("Enter your name: ")
 if st.button("Confrim"):
-    st.write(f"Welcome Miss/Sir {name}")
+    st.write(f"Welcome Miss/Sir {name} to Arsh Streamlit🥳")
 
 agree = st.checkbox("Agree")
 if agree:
-    st.write("Great!")
+    st.write("Great!😀")
 
-st.title("Counter")
-st.header("welcome to Arsh Web!")
+st.title("Counter😶‍🌫️")
+st.header("welcome to Counter")
 if "count" not in st.session_state:
     # st.session_state["count"] = 0
     st.session_state.count = 0
@@ -30,3 +32,10 @@ with col1:
 with col2:
     if st.button("decrement"):
         st.session_state.count = st.session_state.count - 1
+
+st.title("Arsh GitHub")
+st.write("U want to open Arsh's GitHub")
+if st.button("Yes"):
+    st.write("https://github.com/ArshAliAzam")
+elif st.button("No"):
+    st.write("Thanks for visiting🥰")
